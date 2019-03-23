@@ -1,0 +1,19 @@
+ap_ark_construction = {
+    potential = {
+        host_has_dlc = "Apocalypse"
+        NOT = {
+            has_ascension_perk = ap_ark_construction
+        }
+    }
+
+    possible = {
+        custom_tooltip = {
+            fail_text = "requires_ascension_perks_4"
+            num_ascension_perks > 3
+        }
+        custom_tooltip = {
+            "requires_mega_engineering"
+            has_technology = tech_mega_engineering
+        }
+    }
+}
